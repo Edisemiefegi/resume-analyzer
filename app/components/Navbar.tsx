@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="rounded-full w-full bg-white p-2 shadow-sm flex justify-between">
             <Button variant="text"><Link to="/">RESUMEIQ</Link></Button>
 
-            <Button><Link to="/">Upload Resume</Link></Button>
+            <Button><Link to="/upload">Upload Resume</Link></Button>
         </nav>
     )
 }

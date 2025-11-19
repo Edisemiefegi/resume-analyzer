@@ -1,274 +1,162 @@
-import type { ResumeData } from "types";
+import type { Resume } from "types";
 
-export const resumes: ResumeData[] = [
+export const resumes: Resume[] = [
   {
-    id: 1,
-    companyName: "TechNova Inc.",
+    id: "1",
+    companyName: "Google",
     jobTitle: "Frontend Developer",
-    imagePath: "/images/image1.jpg",
-    resumePath: "/resumes/john_doe.pdf",
+    imagePath: "/images/resume-1.png",
+    resumePath: "/resumes/resume-1.pdf",
     feedback: {
-      overallScore: 78,
-      ats: {
-        score: 80,
-        tips: [
-          { type: "good", tip: "Keywords such as React and Tailwind were detected." },
-          { type: "improve", tip: "Add more role-specific terms like 'Vue.js' and 'Nuxt'." },
-        ],
-      },
-      toneAndStyle: {
-        score: 70,
-        tips: [
-          { type: "good", tip: "Professional tone is consistent throughout." },
-          { type: "improve", tip: "Use more active verbs to emphasize achievements." },
-        ],
-      },
-      content: {
-        score: 75,
-        tips: [
-          { type: "good", tip: "Education and certifications are clearly listed." },
-          { type: "improve", tip: "Include measurable results for past projects." },
-        ],
-      },
-      structure: {
-        score: 82,
-        tips: [
-          { type: "good", tip: "Logical flow with clear headings." },
-          { type: "improve", tip: "Bullet points could be more concise." },
-        ],
-      },
-      skills: {
-        score: 85,
-        tips: [
-          { type: "good", tip: "Strong technical stack listed." },
-          { type: "improve", tip: "Highlight soft skills like communication and teamwork." },
-        ],
-      }
-    }
-  },
-  {
-    id: 2,
-    companyName: "FinSolve Ltd.",
-    jobTitle: "Data Analyst",
-    imagePath: "/images/image2.jpg",
-    resumePath: "/resumes/jane_smith.pdf",
-    feedback: {
-      overallScore: 88,
-      ats: {
+      overallScore: 85,
+      ATS: {
         score: 90,
-        tips: [
-          { type: "good", tip: "ATS detected SQL, Python, and Tableau." },
-          { type: "improve", tip: "Add domain-specific keywords like 'financial modeling'." },
-        ],
+        tips: [],
       },
       toneAndStyle: {
-        score: 85,
-        tips: [
-          { type: "good", tip: "Tone is professional but approachable." },
-          { type: "improve", tip: "Avoid passive sentences in work experience." },
-        ],
+        score: 90,
+        tips: [],
       },
       content: {
-        score: 92,
-        tips: [
-          { type: "good", tip: "Projects section is well-detailed." },
-          { type: "improve", tip: "Add a summary at the top for clarity." },
-        ],
+        score: 90,
+        tips: [],
       },
       structure: {
-        score: 87,
-        tips: [
-          { type: "good", tip: "Consistent formatting used throughout." },
-          { type: "improve", tip: "Margins are slightly inconsistent." },
-        ],
+        score: 90,
+        tips: [],
       },
       skills: {
         score: 90,
-        tips: [
-          { type: "good", tip: "Technical skills are comprehensive." },
-          { type: "improve", tip: "Group skills into categories (e.g., tools, languages)." },
-        ],
-      }
-    }
+        tips: [],
+      },
+    },
   },
   {
-    id: 3,
-    companyName: "HealthCore Solutions",
-    jobTitle: "Project Manager",
-    imagePath: "/images/image3.jpg",
-    resumePath: "/resumes/michael_lee.pdf",
+    id: "2",
+    companyName: "Microsoft",
+    jobTitle: "Cloud Engineer",
+    imagePath: "/images/resume-2.png",
+    resumePath: "/resumes/resume-2.pdf",
     feedback: {
-      overallScore: 72,
-      ats: {
-        score: 65,
-        tips: [
-          { type: "good", tip: "ATS detected UX, UI, and prototyping tools." },
-          { type: "improve", tip: "Mention Figma plug-ins or collaboration tools." },
-        ],
-      },
-      toneAndStyle: {
-        score: 75,
-        tips: [
-          { type: "good", tip: "Creative yet professional language used." },
-          { type: "improve", tip: "Keep some bullet points shorter." },
-        ],
-      },
-      content: {
-        score: 70,
-        tips: [
-          { type: "good", tip: "Strong portfolio links included." },
-          { type: "improve", tip: "Add user research metrics where possible." },
-        ],
-      },
-      structure: {
-        score: 74,
-        tips: [
-          { type: "good", tip: "Excellent visual hierarchy." },
-          { type: "improve", tip: "Consider adding a one-page condensed version." },
-        ],
-      },
-      skills: {
-        score: 76,
-        tips: [
-          { type: "good", tip: "Skills clearly mapped to job role." },
-          { type: "improve", tip: "Include accessibility design skills." },
-        ],
-      }
-    }
-  },
-    {
-    id: 4,
-    companyName: "TechNova Inc.",
-    jobTitle: "Frontend Developer",
-    imagePath: "/images/image1.jpg",
-    resumePath: "/resumes/john_doe.pdf",
-    feedback: {
-      overallScore: 78,
-      ats: {
-        score: 80,
-        tips: [
-          { type: "good", tip: "Keywords such as React and Tailwind were detected." },
-          { type: "improve", tip: "Add more role-specific terms like 'Vue.js' and 'Nuxt'." },
-        ],
-      },
-      toneAndStyle: {
-        score: 70,
-        tips: [
-          { type: "good", tip: "Professional tone is consistent throughout." },
-          { type: "improve", tip: "Use more active verbs to emphasize achievements." },
-        ],
-      },
-      content: {
-        score: 75,
-        tips: [
-          { type: "good", tip: "Education and certifications are clearly listed." },
-          { type: "improve", tip: "Include measurable results for past projects." },
-        ],
-      },
-      structure: {
-        score: 82,
-        tips: [
-          { type: "good", tip: "Logical flow with clear headings." },
-          { type: "improve", tip: "Bullet points could be more concise." },
-        ],
-      },
-      skills: {
-        score: 85,
-        tips: [
-          { type: "good", tip: "Strong technical stack listed." },
-          { type: "improve", tip: "Highlight soft skills like communication and teamwork." },
-        ],
-      }
-    }
-  },
-  {
-    id: 5,
-    companyName: "FinSolve Ltd.",
-    jobTitle: "Data Analyst",
-    imagePath: "/images/image2.jpg",
-    resumePath: "/resumes/jane_smith.pdf",
-    feedback: {
-      overallScore: 88,
-      ats: {
+      overallScore: 55,
+      ATS: {
         score: 90,
-        tips: [
-          { type: "good", tip: "ATS detected SQL, Python, and Tableau." },
-          { type: "improve", tip: "Add domain-specific keywords like 'financial modeling'." },
-        ],
+        tips: [],
       },
       toneAndStyle: {
-        score: 85,
-        tips: [
-          { type: "good", tip: "Tone is professional but approachable." },
-          { type: "improve", tip: "Avoid passive sentences in work experience." },
-        ],
+        score: 90,
+        tips: [],
       },
       content: {
-        score: 92,
-        tips: [
-          { type: "good", tip: "Projects section is well-detailed." },
-          { type: "improve", tip: "Add a summary at the top for clarity." },
-        ],
+        score: 90,
+        tips: [],
       },
       structure: {
-        score: 87,
-        tips: [
-          { type: "good", tip: "Consistent formatting used throughout." },
-          { type: "improve", tip: "Margins are slightly inconsistent." },
-        ],
+        score: 90,
+        tips: [],
       },
       skills: {
         score: 90,
-        tips: [
-          { type: "good", tip: "Technical skills are comprehensive." },
-          { type: "improve", tip: "Group skills into categories (e.g., tools, languages)." },
-        ],
-      }
-    }
+        tips: [],
+      },
+    },
   },
   {
-    id: 6,
-    companyName: "HealthCore Solutions",
-    jobTitle: "Project Manager",
-    imagePath: "/images/image3.jpg",
-    resumePath: "/resumes/michael_lee.pdf",
+    id: "3",
+    companyName: "Apple",
+    jobTitle: "iOS Developer",
+    imagePath: "/images/resume-3.png",
+    resumePath: "/resumes/resume-3.pdf",
     feedback: {
-      overallScore: 72,
-      ats: {
-        score: 65,
-        tips: [
-          { type: "good", tip: "ATS detected UX, UI, and prototyping tools." },
-          { type: "improve", tip: "Mention Figma plug-ins or collaboration tools." },
-        ],
+      overallScore: 75,
+      ATS: {
+        score: 90,
+        tips: [],
       },
       toneAndStyle: {
-        score: 75,
-        tips: [
-          { type: "good", tip: "Creative yet professional language used." },
-          { type: "improve", tip: "Keep some bullet points shorter." },
-        ],
+        score: 90,
+        tips: [],
       },
       content: {
-        score: 70,
-        tips: [
-          { type: "good", tip: "Strong portfolio links included." },
-          { type: "improve", tip: "Add user research metrics where possible." },
-        ],
+        score: 90,
+        tips: [],
       },
       structure: {
-        score: 74,
-        tips: [
-          { type: "good", tip: "Excellent visual hierarchy." },
-          { type: "improve", tip: "Consider adding a one-page condensed version." },
-        ],
+        score: 90,
+        tips: [],
       },
       skills: {
-        score: 76,
-        tips: [
-          { type: "good", tip: "Skills clearly mapped to job role." },
-          { type: "improve", tip: "Include accessibility design skills." },
-        ],
-      }
-    }
-  }
+        score: 90,
+        tips: [],
+      },
+    },
+  },
 ];
+
+export const AIResponseFormat = `
+      interface Feedback {
+      "overallScore": number; //max 100
+      "ATS": {
+        "score": number; //rate based on ATS suitability
+        "tips": {
+          "type": "good" | "improve";
+          "tip": string; //give 3-4 tips
+        }[];
+      };
+      toneAndStyle: {
+        "score": number; //max 100
+        "tips": {
+          "type": "good" | "improve";
+          "tip": string; //make it a short "title" for the actual explanation
+         " explanation": string; //explain in detail here
+        }[]; //give 3-4 tips
+      };
+      content: {
+        "score": number; //max 100
+        "tips": {
+          "type": "good" | "improve";
+          "tip": string; //make it a short "title" for the actual explanation
+          "explanation": string; //explain in detail here
+        }[]; //give 3-4 tips
+      };
+      structure: {
+        "score": number; //max 100
+        "tips": {
+          "type": "good" | "improve";
+          "tip": string; //make it a short "title" for the actual explanation
+          "explanation": string; //explain in detail here
+        }[]; //give 3-4 tips
+      };
+      skills: {
+        score: number; //max 100
+        "tips": {
+          type: "good" | "improve";
+          "tip": string; //make it a short "title" for the actual explanation
+          "explanation": string; //explain in detail here
+        }[]; //give 3-4 tips
+      };
+    }`;
+
+export const prepareInstructions = ({
+  jobTitle,
+  jobDescription,
+  AIResponseFormat,
+}: {
+  jobTitle: string;
+  jobDescription: string;
+  AIResponseFormat?: string;
+}) =>
+  `You are an expert in ATS (Applicant Tracking System) and resume analysis.
+  Please analyze and rate this resume and suggest how to improve it.
+  The rating can be low if the resume is bad.
+  Be thorough and detailed. Don't be afraid to point out any mistakes or areas for improvement.
+  If there is a lot to improve, don't hesitate to give low scores. This is to help the user to improve their resume.
+  If available, use the job description for the job user is applying to to give more detailed feedback.
+  If provided, take the job description into consideration.
+  The job title is: ${jobTitle}
+  The job description is: ${jobDescription}
+  Provide the feedback using the following format: ${AIResponseFormat}
+  Return the analysis as a JSON object, without any other text and without the backticks.
+  Do not include any other text or comments.`;
+
+
