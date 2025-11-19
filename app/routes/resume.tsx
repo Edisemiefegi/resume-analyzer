@@ -63,7 +63,7 @@ function resume() {
       <div className="flex mx-auto container  w-11/12  md:w-8/12  flex-row mt-8 max-lg:flex-col-reverse gap-8">
         <section className="h-screen sticky top-0 items-center justify-center ">
           {imageUrl && resumeUrl && (
-            <div className="animate-in   fade-in border-gray-600 duration-1000 max-sm:m-0 h-[90%] max-w-xl:h-fit w-full border">
+            <div className="animate-in   fade-in border-gray-600 duration-1000 max-sm:m-0 h-[90%] max-w-xl:h-fit w-full ">
               <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
                 <img
                   src={imageUrl}
